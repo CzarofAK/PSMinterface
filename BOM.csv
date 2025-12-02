@@ -1,0 +1,16 @@
+Ref,Qty,Description,Footprint
+F1,1,Automotive fuse 1A, 5x20mm, slow-blow,FUSE_5X20
+TVS_INPUT,1,Automotive TVS, unidirectional SMBJ58CA or equivalent,SMBJ
+D1,1,Schottky diode, 60V, 3A, SMC package (reverse polarity),SMC
+U_PWR,1,Automotive DC-DC converter (9-36V -> 5V isolated or non-isolated), e.g. Murata NMA0505SC,MODULE_CUSTOM
+U_LDO,1,Automotive-grade 3.3V LDO (e.g. TI TLV70033 or MCP1700A), SOT-23-5,SOT-23-5
+U_CAN,1,Automotive CAN transceiver TJA1043 or NXP TJA1051/ISOTP capable, SOIC-8,SOIC-8
+CMC,1,Common mode choke for CAN (automotive rated),CMC_SMD
+TVS_CAN,1,CAN pair TVS (two-line transorb array, SOT23-6),SOT-23-6
+OPTOS,10,Optocoupler (logic-speed, Avago/ADI ACPL-063L or similar automotive grade),SOIC-8_OR_SMD
+Q1,10,MOSFET 2N7002 alternative automotive-level, SOT-23,SOT-23
+R_values,50,Resistors assorted (10k,22k,33k,5.6k,47k) 1206/0603,0603
+C_values,20,Capacitors assorted (100nF,1uF,10uF,47uF) MLCC automotive grade,0603/1206
+CONN_PSM,1,Mating automotive connector / pigtail (to match PSM harness),CONN_PSM_CUSTOM
+HDR,1,2.54mm header for ESP32 DevKitC mounting or optional female header,HDR_2.54_ESP32
+SHIELD_CLAMP,1,Shield grounding resistor 10R for CAN shield to chassis,R_0603

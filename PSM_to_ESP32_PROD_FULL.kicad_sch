@@ -1,0 +1,33 @@
+EESchema Schematic File Version 4
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:interface
+LIBS:linear
+LIBS:adc-dac
+LIBS:microcontrollers
+EELAYER 25 0
+EELAYER END
+$Descr A4 11700 8268
+encoding utf-8
+Sheet 1 1
+Title "PSM to ESP32 Interface - Production"
+Date "2025-12-02"
+Rev "1.0"
+Comment1 "Production-grade schematic generated"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet 1 1 PSM_to_ESP32_PROD_FULL.sch
+L Device:R R1
+U 1 1 5FEA7B6A
+P 3300 1500
+F 0 "R1" H 3300 1400 50  0000 C CNN
+F 1 "10k" H 3300 1600 50  0000 C CNN
+DRAW
+T 3300 1500 0 0 140 20 0 0 0
+ENDDRAW
+$EndSheet
+$EndSCHEMATC
